@@ -1,0 +1,17 @@
+
+echo 'personal .bashrc settings'
+
+set -o vi
+
+alias makeme='gcc proff.c -o proff'
+
+echo 'o w/tail for directory control'
+alias d='dirs -v'
+alias p=pushd
+alias q=popd
+
+export PATH=$HOME/cse_290/magee/:$HOME/cse_290:$PATH
+
+echo 'personal reminders:'
+echo '    use $? to get the return value of the last program'
+
