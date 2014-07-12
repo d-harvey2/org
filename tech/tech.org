@@ -1,0 +1,81 @@
+* LINUX DESKTOPS
+LXDE - ultra-lightweight
+Xmonad - tiling window manager -- keyboard-arranged
+to update ruby & python
+$ apt-get install ruby19
+$ apt-get install python3
+
+rubygems pypi & pypm to grok & get libraries
+http://stackoverflow.com/questions/1884724/what-is-node-js
+vs. django vs. Ruby on Rails
+
+* ARCHIVERS
+
+** GIT
+
+** EXTERNAL 
+mercurial
+bitbucket
+dropbox
+github
+linode (1G 20/mo)
+
+* SCRIPT LANGUAGES
+
+** BASH
+ssh your_username@remote.host.edu
+scp your_username@remotehost.edu:foobar.txt /some/local/directory 
+
+* EDITORS
+
+** EMACS 
+
+** VIM 
+***INVOCATIONS
+> vim -u NONE -N  {no .vimrc and set nocompatible (with vi)}
+    :filetype plugin on
+
+coolness:
+    in insert mode: :<C-r>=sqrt(81)<CR>   9.0
+*** CHARACTER REPRESENTATION/MANIPULATION
+unicode sharp angle-brackets w/ <C-v>u2329 and <C-v>u232a  〈like so 〉
+unicode arrows start at 2190  ←  and go thru 21ff  ⇿
+unicode math start at 2200 ∀  (2203 is ∃) thru 22ff ⋿
+unicode misc. tech see http://unicode-table.com/en/sections/miscellaneous-technical/
+unicode symbols start again at e000 private use area e021+ =        
+e69c+ =        
+latin supplement is the old IBM extra printing characters
+latin supplement is at http://unicode-table.com/en/sections/latin-1-supplement/
+00ae ® 00a9 © 00b0 ° 00ab « 00bb » 00f7 ÷ 
+greek alphabet 0391 - 03a9 and 03b1 - 03c9   Α - Ω and α - ω
+
+*** ARCHITECTURAL COMPONENTS
+overview of containers:
+    buffers contain file contents, optionally
+    windows contain buffers
+    tabs contain windows
+registers
+functions
+switches
+help
+command line history
+
+*** URLs
+vimcasts.org
+http://www.viemu.com/a_vi_vim_graphical_cheat_sheet_tutorial.html
+vimdoc.sourceforge.net
+http://unicode-table.com/en/#phonetic-extentions-supplement
+
+*** USEFUL INTERNAL NAVIGATION
+useful help:
+syntax on/off
+  :h map-which-keys
+  :h mapleader
+  :h maplocalleader
+useful settings:
+  :set columns=132  {or 80, commonly}
+  :set lines=43     {or 24, commonly}
+
+
+[HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
+"Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,1d,00,3a,00,3a,00,1d,00,00,00,00,00
