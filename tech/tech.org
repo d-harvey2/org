@@ -76,6 +76,7 @@ useful settings:
   :set columns=132  {or 80, commonly}
   :set lines=43     {or 24, commonly}
 
-
+* EXTERNAL
+this is how to autoswap capslock and ctrl in command line using the reg.exe command:
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Keyboard Layout]
 "Scancode Map"=hex:00,00,00,00,00,00,00,00,03,00,00,00,1d,00,3a,00,3a,00,1d,00,00,00,00,00
