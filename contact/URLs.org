@@ -1,0 +1,11 @@
+* URLs
+
+personal:
+    http://www.reddit.com/r/LifeProTips/comments/2agvgy/lpt_how_to_remove_almost_any_stain_from_almost/
+http://www.mypatriotsupply.com/Articles.asp?ID=245
+
+technical:
+    http://vimdoc.sourceforge.net/htmldoc/usr_41.html#usr_41.txt
+    http://vimcasts.org/episodes/simple-calculations-with-vims-expression-register/
+    http://vimcasts.org/episodes/evaluating-scripts-with-vims-expression-register/
+http://www.wangafu.net/~nickm/libevent-book/

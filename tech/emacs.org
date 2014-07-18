@@ -1,0 +1,30 @@
+(setq inhibit-startup-screen t)
+(setq viper-mode t)
+(require 'viper)
+(if (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
+(if (fboundp 'tool-bar-mode) (tool-bar-mode -1))
+(if (fboundp 'menu-bar-mode) (menu-bar-mode -1))
+(global-linum-mode 1)
+
+in the .viper file:
+    (setq viper-inhibit-startup-message 't)
+    (setq viper-expert-level '1)
+
+in the .emacs file:
+    (setq viper-mode t)
+    (require 'viper)
+    (set-default-font "org-hide")
+    (global-linum-mode 1)
+
+
+
+* emacs-isms
+** basic keys
+meta-x to issue a command such as:
+kill-emacs
+toggle-viper-mode
+write-buffer
+
+**           global-linum-mode
+
+

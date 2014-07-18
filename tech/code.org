@@ -1,0 +1,4 @@
+* PYTHON
+    //docs.python.org/3.3/library/stdtypes.html 
+    http://docs.scipy.org/doc/numpy-1.8.1/reference/
+    http://www.reddit.com/r/LearnPython

@@ -1,0 +1,32 @@
+* USEFUL WEBSITES
+from gethub:
+    http://gitref.org
+    git-scm.com
+    http://progit.org
+   
+The basic important git commands:
+init
+clone
+status
+add
+commit
+branch
+checkout
+merge
+push
+fetch
+pull
+log
+* CURRENT VIABLE DVCS (DISTRIBUTED)
+** ALTERNATIVE, AND ALTERNATIVE HOSTING OPTIONS
+for git --> github
+        --> gitorious
+        --> gitlab
+for mercurial --> bitbucket
+for bazaar --> launchpad http://wiki.bazaar.canonical.com/BzrVsGit
+in theory, you could just use dropbox w/raw git for a host
+
+** CURRENT VIABLE VCS (CENTRALIZED, CHILDREN OF RCS)
+    perforce
+    subversion
+    clearcase
