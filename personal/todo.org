@@ -1,6 +1,6 @@
 remove mold from back porch
 
-change lightbulbs in kitchen
+(done) change lightbulbs in kitchen 
 
 get red truck title
 get dad vet status
@@ -10,11 +10,11 @@ get calendar up to date
 check out UPS store for real address (not PO box)
 find terra cotta garlic keeper
   (keeps garlic up to a month or two, per Cook's Illustrated)
-6 round ceramic 1 cup cups for eggs
+(done) 6 round ceramic 1 cup cups for eggs
 couple of wooden spatulas
-old fashioned potato masher
+(done) old fashioned potato masher
 
-tamari (in place of soy sauce)
+(done) tamari (in place of soy sauce)
 fake/vegetarian oyster sauce
 
 * PENDING QUESTIONS
@@ -22,3 +22,5 @@ fake/vegetarian oyster sauce
                        git?, bitbucket?, dropbox?
     Ask localvoirs if they know about super-eggs (not just free-range).
     Look into bitbucket & dropbox
+
+    check out Ped-egg to solve callus problem
