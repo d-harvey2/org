@@ -1,0 +1,18 @@
+1) Remember that just about everything is an object, with one or more attributes and methods. Even strings are objects, and can use methods such as ".equals(System.obj)". Get-Member is your friend for determining what methods and attributes apply:
+        "This is a string" | get-member
+
+2) All (properly made) commands take the form of [verb]-[noun]:
+        get-member
+        set-ADUser
+        remove-item
+        get-help
+
+3) When iterating over a group using "foreach" or "where-object", the special variable $_ is used as a placeholder for the current element:
+        @("arrayIndex1", "arrayIndex2") | foreach { write-host $_ }
+        @("RedFish", "BlueFish", "BlueBird") | where-object {$_ -like "blue*"}
+
+4) When in doubt, use one of the following:
+        Get-Help [command]
+        Get-Command
+        $variable | get-member
+        $variable | format-list *
