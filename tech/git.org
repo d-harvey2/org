@@ -26,6 +26,17 @@ for mercurial --> bitbucket
 for bazaar --> launchpad http://wiki.bazaar.canonical.com/BzrVsGit
 in theory, you could just use dropbox w/raw git for a host
 
+
+* things about git
+** the main ladder up
+    git add *<fn>
+    git status
+    git commit -m "<msg>"
+    git push origin master
+        (2yevrah-d 5002tnarudss)
+    on the web log into gethub.com to check
+
+
 ** CURRENT VIABLE VCS (CENTRALIZED, CHILDREN OF RCS)
     perforce
     subversion

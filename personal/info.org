@@ -9,13 +9,4 @@
 
   9720697206 wireless at Dad's
 
-* things about git
-** the main ladder up
-    git add *<fn>
-    git status
-    git commit -m "<msg>"
-    git push origin master
-        (d-harvey2 ssdurant2005)
-    on the web log into gethub.com to check
-
 98660zip  
