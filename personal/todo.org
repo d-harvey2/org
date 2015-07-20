@@ -53,6 +53,7 @@
     hardware
         extra faucet branch
         new wipers for white truck
+        sidegoing wall socket extenders
     grocery
         milk
         salsa ingredients
