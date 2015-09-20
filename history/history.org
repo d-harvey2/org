@@ -28,4 +28,10 @@ STOICS:
     Epictetus
     Senica
     Marcus Aurelius
+Before the ancient dark ages in the fertile crescent:
+cultural genesis:
+  sumarians --> akkadians --> babylonians ----> persians
+After the ancient dark ages in the fertile crescent:
+organizational genesis:
+  assyrians --> medes --> persians
 

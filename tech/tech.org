@@ -1,3 +1,17 @@
+* HACKERS
+    lulzsec
+        topiary
+        sabu
+        kayla
+        tflow
+        avunit
+        pwnsauce
+    modes of attack
+        botnet
+        ddos attack
+        database injection
+        database scooping
+
 * LINUX DESKTOPS
 LXDE - ultra-lightweight
 Xmonad - tiling window manager -- keyboard-arranged
