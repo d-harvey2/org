@@ -1,0 +1,18 @@
+* TODO get setups gethub'd
+** windows
+** Mac
+** unix
+*** bash setup file
+#!/usr/bash (file "setup" in home directory)
+: to setup up my laptop preferences
+setxkbmap -option ctrl:swapcaps
+synclient Touchpadoff=1
+: you can use colons for comments
+*** vi setup (file ".vimrc in home directory)
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+*** setup viper-mode (.viper)
+(setq viper-expert-level '5)
+(setq viper-inhibit-startup-message 't)
+***

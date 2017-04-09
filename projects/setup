@@ -1,0 +1,10 @@
+#!/bin/bash
+: to setup up my laptop preferences
+
+setxkbmap -option ctrl:swapcaps
+synclient Touchpadoff=1
+
+
+: you can use colons for comments
+: a cheat of sorts just do not use
+: labels and you will be fine.
