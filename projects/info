@@ -1,0 +1,10 @@
+
+
+
+
+* COMPUTER TECHNICAL
+pushing from ~/sandbox to git archive called org:
+  in bash:
+    arc=~/org/org/projects
+    then you can use $arc in bash commands e.g.: > cp info $arc/.
+    note that "> cd -" returns to previous directory
