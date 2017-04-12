@@ -2,17 +2,122 @@
 ** windows
 ** Mac
 ** unix
-*** bash setup file
-#!/usr/bash (file "setup" in home directory)
+*** bash setup file (file "setup" in home directory (invoke w/ > ./setup))
+#!/usr/bash 
 : to setup up my laptop preferences
 setxkbmap -option ctrl:swapcaps
 synclient Touchpadoff=1
 : you can use colons for comments
 *** vi setup (file ".vimrc in home directory)
+**** use double quotes to make comments in vim
+**** never leave tabs in anything if you can help it
 set expandtab
-set shiftwidth=2
-set softtabstop=2
+set shiftwidth=4
+set softtabstop=4
+**** use so find command recurses downward (keep vi focus at root)
+" look for documentation in |ins-completion|
+set path+=**
+set wildmenu
 *** setup viper-mode (.viper)
 (setq viper-expert-level '5)
 (setq viper-inhibit-startup-message 't)
-***
+
+
+
+from another machine:
+
+* accts 
+xfinity: donaldcoryharvey  ssdurant1 
+* making life better on this machine (dell E6500, running Mint linux 17)
+- command line options:
+  - make a batch file like this (execute w/{./setup [must chmod 777 setup]})
+    - setxkbmap -option ctrl:swapcaps
+    - synclient Touchpadoff=1
+  - help with bash (in order of brevity):
+    - http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO.html
+    - http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html
+    - http://tldp.org/LDP/abs/html/
+    - https://www.gnu.org/software/bash/manual/
+  - bash help:  http://tldp.org/LDP/Bash-Beginners-Guide/html/index.html
+- GUI options
+  - <shift><ctrl> +/-  for font size in the terminal
+
+* TODO research list
+- high heat: organic, expeller-pressed coconut or avocado
+- food co-op in Portland still raw goat milk?
+- prevacid? for short term memory
+- food co-op in Portland still raw goat milk?  Yes
+
+* TODO date w/Gail sat. 18th
+** TODO check /Laurelhurst, then w/Gail
+** TODO round up tickets, go get Gail
+
+* TODO re-engage with mt. Scott pool
+* TODO catch the men only tango at the beginning
+
+* lemon cheesecake
+** crust
+- barnam animal crackers 5 oz.
+- 4 Tb melted butter
+- 3 Tb sugar
+- Tb lemon zest 
+- 1/4 cup sugar
+- 325 15 min.
+** cake
+- aluminum foil in a bain marie
+- 1 cup sugar
+- 1 1/2 lb cream cheese
+- 4 eggs
+- 1/4 cup lemon juice
+- 1/4 tsp salt
+- 2 tsp vanilla
+- 1/2 cup heavy cream (sour cream, most recipes)
+- warm/hot water in the bain marie
+- 325 for 60 min.
+- fridge 4 hrs.
+** curd
+- 1/3 cup hot lemon juice
+- 2 eggs, one yolk
+- 1/2 cup sugar
+- whisk vigorously so eggs don't cook
+- heat to 170
+- 2 Tb cold butter
+- 1 Tb heavy cream
+- pinch salt
+- pinch vanilla
+- strain into ceramic/glass bowl after butter cools
+- cling wrap & fridge an hour
+** combine
+- cake to 150 then allow to cool in slightly open oven ~1 hour
+- cake at room temp, curd cold
+- offset spatula deploy
+- clingwrap and fridge for 4 hours
+- fridge for 4 hours
+* REFERENCES
+** THE OFFICIAL LINE ON vi
+- www.vim.org
+- posix compliant vi (as of 2016):  http://pubs.opengroup.org/onlinepubs/9699919799/utilities/vi.html
+- vi/ex cheatsheet:  http://ex-vi.sourceforge.net/viin/quickref.pdf 
+- Bill Joy's original vi paper (supplemented:   http://ex-vi.sourceforge.net/viin/paper.html
+
+
+
+
+
+
+test kitchen best food processor:
+    cuisinart custom 14
+
+red lentils:
+north african spice blend
+  black pepper
+  ground ginger
+  cayanne
+  cinnemon
+  coriander
+  cumin
+  lemon juice
+  mint
+  paprika
+
+
